@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <title>Khaled Mahmud</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <!-- Navbar (not responsive) -->
+        <nav class="container">
+            <div class="nav-container">
+                <a href="/" class="nav-link-title">&#60;<span>Khaled</span>Mahmud /&#62;</a>
+                <div class="nav-links">
+                    <a href="/pages/about.html" class="nav-link">About</a>
+                    <a href="https://github.com/khaledmahmud971" class="nav-link" target="_blank">Projects</a>
+                    <a href="#table" class="nav-link">TABLE</a>
+                    <a href="#activities" class=nav-link>Activities and Interest</a>
+                </div>
+            </div>
+        </nav>
+
+        <header id="about" class="container">
+
+            <!-- About -->
+            <div class="about-container">
+                <img src="images\8a11db27-9164-463d-92cd-356690ed28ff.jpg" class="hero-image" alt="Khaled Mahmud">
+                <h1 class="title">Khaled Mahmud </h1>
+                <h2 class="details">Full Stack Web Developer | Freelance Developer | Instructor</h2>
+                <p class="description">Khaled Mahmud is a full-stack web developer who is involved with coding and web development since 2018. Currently, working as a freelance developer. He holds a bachelor's degree in Computer Science & Engineering and has over 2+ years
+                    of developing scalable software infrastructure across multiple domains which include health, e-commerce, and businesses. <br>Along with being a businessperson, he always had a passion for teaching and his goal is to pass on his knowledge
+                    to his students and empower them to achieve their goals in the IT sector</p>
+
+                
+            </div>
+
+            <!-- quote -->
+            <div class="favourite-quote" cite="https://www.shmoop.com/quotes/get-busy-living-or-get-busy-dying.html">
+                <blockquote>"Get Busy Living, Or Get Busy Dying."<small> - The Shawshank Redemption</small></blockquote>
+            </div>
+
+            <h3> CSE391 Piazza? <a href="https://piazza.com/class/l8fcwp0qxsv615" style="color:#f56565" target="_blank">Click here</a> </h3>
+        </header>
+
+            <div id="activities" class="interest-container">
+                <h2>🎉 ACTIVITIES AND INTERESTS</h2>
+                <ul>
+                    
+                    <li> 🔖 Frequently <b>donate blood</b>  </li>
+                    <li> 🔖 Volunteering <b>Experience</b> </li>
+                    <li> 🔖 Lifetime member of <b>Milestone college Science Club</b></li>
+                    <li> 🔖 Playing Football</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <table id="table">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+    <footer class="container">
+        <p style="text-align:center">&copy; <span id="year"></span><a href="https://giphy.com/gifs/funsubstance-n2jyrYPiwCji8" target="_blank"> Khaled Mahmud</a> <br> <br> Last Modified: <span id="last_modified"></span> | Page Location is: <span id="page_location"></span></p>
+    </footer>
+    <script>
+        document.getElementById('year').innerText = (new Date()).getFullYear();
+        document.getElementById('last_modified').innerText = document.lastModified;;
+        document.getElementById('page_location').innerText = window.location.href;
+    </script>
+</body>
+
+</html>

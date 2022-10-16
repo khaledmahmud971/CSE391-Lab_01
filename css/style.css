@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+    margin: auto;
+  }
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link-title,
+.nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-link-title>span {
+    color: #f56565;
+}
+
+.nav-links {
+    margin: 1rem 0;
+}
+
+.nav-link {
+    padding: 0 1rem;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 30px;
+    color: #102940;
+}
+
+.about-container {
+    margin: 4rem auto;
+    padding: 1rem 0;
+    background-color: #f2f2f2;
+    color: black;
+    max-width: 650px;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px 2px #f2f2f2;
+}
+
+.hero-image {
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: block;
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+}
+
+.title,
+.details,
+.description {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 1rem;
+}
+
+.description {
+    line-height: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+    list-style: none;
+    margin: 0.8rem 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.table-course-links {
+    color: #000;
+}
+
+.honors-interest-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.honors-container,
+.interest-container {
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 100%;
+    min-height: 200px;
+    background-color: #f2f2f2;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px 2px #f2f2f2;
+}
+
+.honors-container>h2,
+.interest-container>h2 {
+    text-align: center;
+}
+
+@media (max-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+    .nav-link-title,
+    .nav-link {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .institution-items {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
